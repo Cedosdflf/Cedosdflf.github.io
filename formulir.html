@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulir</title>
+    <link rel="stylesheet" href="formulir.css">
+</head>
+<body>
+    <header class="apa">
+        <div class="oy">    
+            <img src="Tanpa Judul.jpeg" alt="logo" class="logo">
+            <ul><li><h2>Beni cahyadi</h2></li><li><h4>mahasiswa informatika</h4></li></ul>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Halaman Utama</a>
+                </li>
+                <li>
+                    <a href="formulir.html">Halaman Formulir</a>
+                </li>
+                <li>
+                    <a href="tabel.html">Halaman Tabel</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Nama, NIM, Program Studi, Email, Password, Jenis Kelamin, Tanggal Lahir, dan Alamat.</p>
+        <li>
+            <h2>Halaman Formulir</h2>
+            <ol>
+                <li>Buatlah form pendaftaran dengan field: Nama, NIM, Program Studi, Email, Password, Jenis Kelamin, Tanggal Lahir, dan Alamat.</li>
+                <li>Setiap field harus memiliki label yang jelas.</li>
+                <li>Gunakan atribut required untuk field yang wajib diisi.</li>
+                <li>Tambahkan tombol submit di bagian bawah form.</li>
+                <li>Menggunakan method get dan mendesain query string yang akan dikirim</li>
+            </ol>
+        </li>
+        <li>
+            <h2>Aturan Desain Layout</h2>
+            <ol>
+                <li>Buatlah setiap halaman dengan layout 3 baris (header, body, footer).</li>
+                <li>Pada baris body terdapat (sidebar, konten utama)</li>
+                <li>Header harus berisi judul website + logo.</li>
+                <li>Konten utama berisi beberapa paragraf teks.</li>
+                <li>Sidebar berisi daftar link ke halaman eksternal (misalnya link ke halaman form atau tabel).</li>
+                <li>Footer berisi informasi hak cipta dan tahun pembuatan website.</li>
+            </ol>
+        </li>
+        <form action="" method="get">
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>NIM</td>
+                    <td><input type="number" required></td>
+                </tr>
+                <tr>
+                    <td>Program Studi</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" required></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td><input type="radio" name="jk">Laki-laki
+                        <input type="radio" name="jk">Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td><input type="date" required></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="simpan">
+                        <input type="reset" value="Reset">
+                        <input type="button" value="Kembali">
+                    </td>
+                </tr>
+                </table>
+            </form>
+    </main>
+    <footer class="kontak">
+        <h3>footer here</h3>
+    </footer>
+</body>
+</html>
