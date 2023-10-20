@@ -1,0 +1,37 @@
+.apa{
+    background-color: rgba(27, 44, 27, 0.705);
+    color: antiquewhite;
+}
+.apa .oy{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+.apa .oy ul{
+    list-style: none;
+}
+.logo{
+    border-radius: 50%;
+    cursor: pointer;
+}
+nav{
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+nav ul {
+    color: antiquewhite;
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    padding: 20px 20px 20px 20px;
+}
+.kontak{
+    background-color: rgba(27, 44, 27, 0.705);
+}
+.kontak h3{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
