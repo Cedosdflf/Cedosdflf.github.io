@@ -1,3 +1,124 @@
+*{
+    font-family:  'Ubuntu', sans-serif;;
+}
+.apa{
+    background-color: rgba(27, 44, 27, 0.705);
+    color: antiquewhite;
+}
+.apa .oy{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+.apa .oy ul{
+    list-style: none;
+}
+.logo{
+    border-radius: 50%;
+    cursor: pointer;
+}
+nav{
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    color: rgb(172, 106, 21);
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+    color:rgb(246, 248, 247);
+}
+nav ul li a:hover{
+    color: #FF9900;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar{
+    background-color: #111827;
+    width: 260px;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.main-content{
+    background-color: #EEEEEE;
+    flex-grow: 1;
+    margin: 20px;
+}
+.sidebar .description-header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+.sidebar a{
+    text-decoration:none ;
+}
+.sidebar .header .list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    height: 40px;
+    box-sizing: border-box;
+}
+.sidebar .header .list-item .icon{
+    margin-right: 12px;
+}
+.sidebar .header .illustration{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px 0px 22px 0px;
+    box-sizing: border-box;
+}
+.sidebar .main .list-item .description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;    
+}
+.sidebar .main .list-item .icon{
+    margin-right: 12px;
+}
+.sidebar .main .list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    width: 212px;
+    box-sizing: border-box;
+}
+.sidebar .main .list-item:hover{
+    background: #FF9900;
+    transition: all ease-in 0.2s;
+}
+
+#kontak{
+    background-color: rgba(27, 44, 27, 0.705);
+}
+#kontak h3{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
 tr:nth-child(even){
     background-color: #f1f1f1;
 }

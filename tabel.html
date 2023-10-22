@@ -3,99 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabel</title>
+    <!--fonts google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="tabel.css">
 </head>
 <body>
-    <header></header>
+    <header class="apa">
+        <div class="oy">    
+            <img src="https://drive.google.com/uc?id=14l4Wv5Bwek3tlzRlL-DoFJvE40vOjUFa" alt="logo" class="logo">
+            <ul><li><h2>UTS Pemrograman Web </h2></li></ul>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Halaman Utama</a>
+                </li>
+                <li>
+                    <a href="formulir.html">Halaman Formulir</a>
+                </li>
+                <li>
+                    <a href="tabel.html">Halaman Tabel</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <li>
-            <h2>Halaman Tabel</h2>
-            <ol>
-                <li>Buatlah tabel yang menampilkan daftar mahasiswa dengan kolom: Nama, NIM, Program Studi, Email, Password, Jenis Kelamin, Tanggal Lahir, dan Alamat</li>
-                <li>Tabel harus memiliki header dan setidaknya 5 baris data (menggunakan data dummy)</li>
-                <li>Gunakan styling CSS untuk memberikan warna latar belakang yang berbeda pada baris genap (even) dan ganjil (odd)</li>
-            </ol>
-        </li>
-        <li>
-            <h2>Aturan Desain Layout</h2>
-            <ol>
-                <li>Buatlah setiap halaman dengan layout 3 baris (header, body, footer).</li>
-                <li>Pada baris body terdapat (sidebar, konten utama)</li>
-                <li>Header harus berisi judul website + logo.</li>
-                <li>Konten utama berisi beberapa paragraf teks.</li>
-                <li>Sidebar berisi daftar link ke halaman eksternal (misalnya link ke halaman form atau tabel).</li>
-                <li>Footer berisi informasi hak cipta dan tahun pembuatan website.</li>
-            </ol>
-        </li>
-        <table border="1" width="100%">
-            <thead >
-                <tr bgcolor="blue">
-                    <th>Nama</th>
-                    <th>NIM</th>
-                    <th>Program Studi</th>
-                    <th>Email</th>
-                    <th>Password</th>
-                    <th>Jenis Kelamin</th>
-                    <th>Tanggal Lahir</th>
-                    <th>Alamat</th>
-                </tr>
-            </thead>
-            <tbody align="center">
-                <tr>
-                    <th >Nama</th>
-                    <th >NIM</th>
-                    <th >Program Studi</th>
-                    <th >Email</th>
-                    <th>Password</th>
-                    <th>Jenis Kelamin</th>
-                    <th>Tanggal Lahir</th>
-                    <th>Alamat</th>
-                </tr>
-                <tr>
-                    <th >Nama</th>
-                    <th >NIM</th>
-                    <th >Program Studi</th>
-                    <th >Email</th>
-                    <th>Password</th>
-                    <th>Jenis Kelamin</th>
-                    <th>Tanggal Lahir</th>
-                    <th>Alamat</th>
-                </tr>
-                <tr>
-                    <th >Nama</th>
-                    <th >NIM</th>
-                    <th >Program Studi</th>
-                    <th >Email</th>
-                    <th>Password</th>
-                    <th>Jenis Kelamin</th>
-                    <th>Tanggal Lahir</th>
-                    <th>Alamat</th>
-                </tr>
-                <tr>
-                    <th >Nama</th>
-                    <th >NIM</th>
-                    <th >Program Studi</th>
-                    <th >Email</th>
-                    <th>Password</th>
-                    <th>Jenis Kelamin</th>
-                    <th>Tanggal Lahir</th>
-                    <th>Alamat</th>
-                </tr>
-                <tr>
-                    <th >Nama</th>
-                    <th >NIM</th>
-                    <th >Program Studi</th>
-                    <th >Email</th>
-                    <th>Password</th>
-                    <th>Jenis Kelamin</th>
-                    <th>Tanggal Lahir</th>
-                    <th>Alamat</th>
-                </tr>
-            </tbody>
-        </table>
-
+        <div class="container">
+            <div class="sidebar">
+                <div class="header">
+                    <div class="list-item">
+                        <a href="#">
+                            <img src="https://drive.google.com/uc?id=1yqWBzhbRh7hOR6hJCCb9rJoWupy_gIty" alt="" class="icon">
+                            <span class="description-header">Informatika Itera</span>
+                        </a>
+                    </div>
+                    <div class="illustration">
+                        <img src="https://drive.google.com/uc?id=1ylxPIJdHuVSbIk23cWVAmTxGuzjcI4LZ" alt="">
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="list-item">
+                        <a href="index.html">
+                            <img src="https://drive.google.com/uc?id=10ZrOdyg9E1Q9auca8da-Zkr91-VWQdDS" alt="" class="icon">
+                            <span class="description">Halaman Utama</span>
+                        </a>
+                    </div>
+                    <div class="list-item">
+                        <a href="formulir.html">
+                            <img src="https://drive.google.com/uc?id=1-TObc_G3DqDVgJY1hD3Eepu4V_UK2X6n" alt="" class="icon">
+                            <span class="description">Halaman Formulir</span>
+                        </a>
+                    </div>
+                    <div class="list-item">
+                        <a href="tabel.html">
+                            <img src="https://drive.google.com/uc?id=1NEy51EW2eLIPEZrzr6hMBqwTXizzPnZO" alt="" class="icon">
+                            <span class="description">Halaman Tabel</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <h3>Tabel Mahasiswa</h3>
+                <p>Tabel merupakan susunan data dalam baris dan kolom, atau mungkin dalam struktur yang lebih kompleks. Tabel banyak digunakan dalam komunikasi, penelitian, dan analisis data. Tabel sering muncul muncul di media cetak, tulisan, perangkat lunak komputer, arsitektur hiasan, rambu lalu lintas, dan lain-lain. Isi dan terminologi untuk menggambarkan sebuah tabel bergantung pada konteks dari data yang akan disajikan. Lebih lanjut, tabel secara signifikan dapat memuat informasi yang berbeda dalam jenis, struktur, fleksibilitas, notasi, representasi dan penggunaan. Dalam buku-buku dan artikel teknis, tabel biasanya disajikan terpisah dari teks utama dengan penulisan judul dan legenda yang terpisah. Beberapa tabel yang memuat data dengan jumlah banyak tidak mangkus dalam menerjemahkan suatu data tertentu. Dengan demikian, data yang ada di dalam tabel kembali diterjemahkan seperti dalam diagram atau bagan (carta). </p>
+                <p>Berikut ini adalah Contoh tabel mahasiswa :</p>
+                <table border="1" width="100%">
+                    <thead >
+                        <tr bgcolor="blue">
+                            <th>Nama</th>
+                            <th>NIM</th>
+                            <th>Program Studi</th>
+                            <th>Email</th>
+                            <th>Password</th>
+                            <th>Jenis Kelamin</th>
+                            <th>Tanggal Lahir</th>
+                            <th>Alamat</th>
+                        </tr>
+                    </thead>
+                    <tbody align="center">
+                        <tr>
+                            <th >Rendy Dermawan</th>
+                            <th >20140178</th>
+                            <th >Teknik Informatika</th>
+                            <th >Rendy.20140178@student.itera.ac.id</th>
+                            <th>123456</th>
+                            <th>Laki-laki</th>
+                            <th>13-09-2000</th>
+                            <th>Tanggamus</th>
+                        </tr>
+                        <tr>
+                            <th >Bunga Indah</th>
+                            <th >20140138</th>
+                            <th >Teknik Informatika</th>
+                            <th >Bunga.20140138@student.itera.ac.id</th>
+                            <th>123654</th>
+                            <th>Perempuan</th>
+                            <th>11-03-2000</th>
+                            <th>Pringsewu</th>
+                        </tr>
+                        <tr>
+                            <th >Bagus Hermawan</th>
+                            <th >20140118</th>
+                            <th >Teknik Informatika</th>
+                            <th >Bagus.20140118@student.itera.ac.id</th>
+                            <th>136556</th>
+                            <th>Laki-laki</th>
+                            <th>23-01-2000</th>
+                            <th>Malang</th>
+                        </tr>
+                        <tr>
+                            <th >Bagas Dermawan</th>
+                            <th >20140121</th>
+                            <th >Teknik Informatika</th>
+                            <th >Bagas.20140121@student.itera.ac.id</th>
+                            <th>353456</th>
+                            <th>Laki-laki</th>
+                            <th>07-08-2001</th>
+                            <th>Way Ilahan</th>
+                        </tr>
+                        <tr>
+                            <th >Kevin Pandugo</th>
+                            <th >20140003</th>
+                            <th >Teknik Informatika</th>
+                            <th >kevin.20140003@student.itera.ac.id</th>
+                            <th>165456</th>
+                            <th>Laki-laki</th>
+                            <th>23-03-1999</th>
+                            <th>Way Harong</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </main>
-    <footer></footer>
+    <footer id="kontak">
+        <h3>Mahasiswa Mata Kuliah Pemrograman Web IF ITERA © 2023</h3>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

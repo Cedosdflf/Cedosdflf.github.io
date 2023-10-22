@@ -4,55 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UTS Pemrograman Web</title>
+    <!--fonts google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <h1>UTS Pemrograman Web</h1>
-    </header>
-    <nav>
-        <div id="section-nav">
-            <h2>Buatlah 3 halaman HTML: 
-                <a href="index.html">Halaman Utama</a>
-                <a href="formulir.html">Halaman Formulir</a>
-                <a href="tabel.html">Halaman Tabel</a>
-            </h2>
+    <header class="apa">
+        <div class="oy">    
+            <img src="https://drive.google.com/uc?id=14l4Wv5Bwek3tlzRlL-DoFJvE40vOjUFa" alt="logo" class="logo">
+            <ul><li><h2>UTS Pemrograman Web </h2></li></ul>
         </div>
-    </nav>
-    <main>   
-        <p>
-            Deskripsi singkat website
-            Judul halaman yang sesuai
-            Menu navigasi untuk berpindah ke halaman lain (Form dan Tabel)
-            Deskripsi singkat tentang website
-        </p>
-        <li>
-            <h2>Aturan Desain Layout</h2>
-            <ol>
-                <li>Buatlah setiap halaman dengan layout 3 baris (header, body, footer).</li>
-                <li>Pada baris body terdapat (sidebar, konten utama)</li>
-                <li>Header harus berisi judul website + logo.</li>
-                <li>Konten utama berisi beberapa paragraf teks.</li>
-                <li>Sidebar berisi daftar link ke halaman eksternal (misalnya link ke halaman form atau tabel).</li>
-                <li>Footer berisi informasi hak cipta dan tahun pembuatan website.</li>
-            </ol>
-        </li>
-        <li>
-            <h2>Aturan CSS</h2>
-            <ol>
-                <li>Setiap halaman file html memiliki 1 file css</li>
-                <li>Gunakan minimal 5 jenis selektor dalam mendesain halaman</li>
-            </ol>
-        </li>
-        <li>
-            <h2>Bonus</h2>
-            <ol>
-                <li>Tabel memiliki 1 data tambahan jika halaman diakses dari halaman form dengan melakukan submit data (ada javascript)</li>
-                <li>Mengganti penggunaan data mahasiswa dengan data lain yang lebih panjang, misal: film</li>
-                <li>Membuat tampilan yang menarik lebih bagus dari aturan layout</li>
-            </ol>
-        </li>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Halaman Utama</a>
+                </li>
+                <li>
+                    <a href="formulir.html">Halaman Formulir</a>
+                </li>
+                <li>
+                    <a href="tabel.html">Halaman Tabel</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="sidebar">
+                <div class="header">
+                    <div class="list-item">
+                        <a href="#">
+                            <img src="https://drive.google.com/uc?id=1yqWBzhbRh7hOR6hJCCb9rJoWupy_gIty" alt="" class="icon">
+                            <span class="description-header">Informatika Itera</span>
+                        </a>
+                    </div>
+                    <div class="illustration">
+                        <img src="https://drive.google.com/uc?id=1ylxPIJdHuVSbIk23cWVAmTxGuzjcI4LZ" alt="">
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="list-item">
+                        <a href="index.html">
+                            <img src="https://drive.google.com/uc?id=10ZrOdyg9E1Q9auca8da-Zkr91-VWQdDS" alt="" class="icon">
+                            <span class="description">Halaman Utama</span>
+                        </a>
+                    </div>
+                    <div class="list-item">
+                        <a href="formulir.html">
+                            <img src="https://drive.google.com/uc?id=1-TObc_G3DqDVgJY1hD3Eepu4V_UK2X6n" alt="" class="icon">
+                            <span class="description">Halaman Formulir</span>
+                        </a>
+                    </div>
+                    <div class="list-item">
+                        <a href="tabel.html">
+                            <img src="https://drive.google.com/uc?id=1NEy51EW2eLIPEZrzr6hMBqwTXizzPnZO" alt="" class="icon">
+                            <span class="description">Halaman Tabel</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <h2>Deskripsi singkat website</h2>
+                <p>Website ini dibuat sebagai tugas Ulangan Tengah Semester mata kuliah Pemrograman Web. website ini terdiri dari tiga halaman yaitu: halaman utama, halaman formulir dan halaman tabel. Ketentuan Pembuatan Website yaitu : </p>
+                <h3>Halaman Utama <i>(Homepage)</i></h3>
+                <ol>
+                    <li>Judul halaman yang sesuai</li>
+                    <li>Menu navigasi untuk berpindah ke halaman lain (Form dan Tabel)</li>
+                    <li>Deskripsi singkat tentang website</li>
+                </ol>
+                <h3>Halaman Formulir</h3>
+                <ol>
+                    <li>Buatlah form pendaftaran dengan field: Nama, NIM, Program Studi, Email, Password, Jenis Kelamin, Tanggal Lahir, dan Alamat.</li>
+                    <li>Setiap field harus memiliki label yang jelas.</li>
+                    <li>Gunakan atribut required untuk field yang wajib diisi.</li>
+                    <li>Tambahkan tombol submit di bagian bawah form.</li>
+                    <li>Menggunakan method get dan mendesain query string yang akan dikirim</li>
+                </ol>
+                <h3>Halaman Tabel</h3>
+                <ol>
+                    <li>Buatlah tabel yang menampilkan daftar mahasiswa dengan kolom: Nama, NIM, Program Studi, Email, Password, Jenis Kelamin, Tanggal Lahir, dan Alamat</li>
+                    <li>Tabel harus memiliki header dan setidaknya 5 baris data (menggunakan data dummy)</li>
+                    <li>Gunakan styling CSS untuk memberikan warna latar belakang yang berbeda pada baris genap (even) dan ganjil (odd)</li>
+                </ol>
+            </div>
+        </div>
     </main>
-    <footer></footer>
+    <footer id="kontak">
+        <h3>Mahasiswa Mata Kuliah Pemrograman Web IF ITERA © 2023</h3>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
